@@ -1,0 +1,71 @@
+/*----------------------------------Media querries---------------------------*/
+
+@media screen and (max-width:980px)
+{
+/*---------------Header----------------*/	
+	.header{
+		width: 100%;
+		height: 85px;
+	}
+	.header nav ul li{
+		font-size: 15px;
+	
+	}
+	.header nav{
+		margin-right: 60px;
+	}
+	.logo{
+		font-size: 50px;
+		margin-left: 150px;
+	}
+
+/*-------------Main------------------*/
+	.main{
+		width:380px;
+		height: 600px;
+	}
+	.main{
+		margin: 70px 0 0 150px;
+	}
+
+/*----------------Portfolio-----------*/
+	.containerPortfolio{
+		height: 1100px;
+	}
+
+	.mainPortfolio{
+		width:415px;
+		height: 1000px;
+		margin: 70px 0 0 150px;
+	}
+	.mainPortfolio .mainLeft{ 
+		height:500px;
+		width:307px;
+		margin:20px 0 0 50px;
+	 }
+	 .mainPortfolio .mainRight{ 
+		float:left;
+		height:500px;
+		width:307px;
+		margin:20px 0 0 50px;
+
+	 }
+/*---------------MainContact----------------*/
+	.mainContact{
+		width:400px;
+		height: 550px;
+	}
+	.mainContact{
+		margin: 70px 0 0 150px;
+	}
+/*--------------Contact---------------*/
+	.contactName{
+		width: 320px;
+	}
+	.contactEmail{
+		width: 320px;
+	}
+	.contactMessage{
+		width: 320px;
+	}
+}
