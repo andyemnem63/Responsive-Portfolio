@@ -1,6 +1,6 @@
 /*----------------------------------Media querries(980px)---------------------------*/
 
-@media screen and (max-width:980px)
+@media screen and (max-width:1210px)
 {
 /*---------------Header----------------*/	
 	.header{
@@ -42,17 +42,20 @@
 		margin: 70px 0 0 150px;
 	}
 	.mainPortfolio .mainLeft{ 
-		height:500px;
-		width:307px;
 		margin:20px 0 0 50px;
 	 }
-	 .mainPortfolio .mainRight{ 
-		float:left;
-		height:500px;
-		width:307px;
-		margin:20px 0 0 50px;
 
-	 }
+ .mainLeft .mainProj2{
+ 	margin:50px auto 0 40px;
+ }
+  .mainLeft .mainProj4{
+ 	margin:50px auto 0 40px;
+ }
+
+ .mainLeft .mainProj5{
+ 	margin:50px auto 0 auto;
+ }
+
 /*---------------MainContact----------------*/
 	.mainContact{
 		width:400px;
@@ -75,7 +78,7 @@
 
 /*----------------------------------Media querries(768px)---------------------------*/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 910px){
 
 /*---------------Header----------------*/	
 	.header{
@@ -131,60 +134,59 @@
 		height: 900px;
 		margin: 70px 0 0 30px;
 	}
-	.mainPortfolio .mainLeft{ 
-		height:500px;
-		width:307px;
-		margin:10px 0 0 10px;
-	 }
-	 .mainPortfolio .mainRight{ 
-		float:left;
-		height:500px;
-		width:307px;
-		margin:20px 0 0 0px;
+	 .mainPortfolio .mainLeft{ 
+	float:left;
+	height:80%;
+	width: 100%;
+	margin:-25px 0 0 0;
+ }
 
-	 }
-		.mainLeft .mainProj1{
-	 	height: 230px;
-	 	width: 250px;
-	 	margin:0 auto;
-	 	overflow: hidden;
- 	}
-		 .mainLeft .mainProj2{
-		 	height: 230px;
-		 	width: 250px;
-		 	margin:20px auto 0 auto;
-		 	overflow: hidden;
-		 }
-		 .mainLeft .mainProj3{
-		 	height: 230px;
-		 	width: 250px;
-		 	margin:20px auto 0 auto;
-		 	overflow: hidden;
-		 }
-		  .mainRight .mainProj4{
-		 	height: 230px;
-		 	width: 250px;
-		 	margin:0 auto 0 auto;
-		 	overflow: hidden;
-		 }
+.mainLeft .mainProj1{
+ 	height: 130px;
+ 	width: 200px;
+ 	padding-left: 40px;
+ 	margin-right: 90px;
+ 	display: inline-block;
+ 	overflow: hidden;
+ }
 
-		 .mainRight .mainProj5{
-		 	height: 230px;
-		 	width: 250px;
-		 	margin:20px auto 0 auto;
-		 	overflow: hidden;
-		 }
+ .mainLeft .mainProj2{
+ 	height: 130px;
+ 	width: 200px;
+ 	display: inline-block;
+ 	margin:50px auto 0 40px;
+ 	overflow: hidden;
+ }
+ .mainLeft .mainProj3{
+ 	height: 130px;
+ 	width: 200px;
+ 	padding-left: 40px;
+ 	margin-right: 90px;
+ 	margin-top: 50px;
+ 	display: inline-block;
+ 	overflow: hidden;
+ }
+  .mainLeft .mainProj4{
+ 	height: 130px;
+ 	width: 200px;
+ 	display: inline-block;
+ 	margin:50px auto 0 40px;
+ 	overflow: hidden;
+ }
 
-		 .imgBar{
-		 	width: 250px;
-		 	position: absolute;
-		 	overflow: hidden;
-		 	margin-top: 115px;
-		 	display: flex;
-		 	justify-content: center;
-		 	align-items: center;
-		 	color: white;
-		 }
+ .mainLeft .mainProj5{
+ 	height: 130px;
+ 	width: 200px;
+ 	padding-left: 40px;
+ 	display: inline-block;
+ 	margin:50px auto 0 auto;
+ 	overflow: hidden;
+ }
+
+ .imgBar{
+ 	width: 200px;
+ }
+
 /*---------------MainContact----------------*/
 		.mainContact{
 			width:675px;
@@ -210,7 +212,7 @@
 
 }
 /*---------------------Media querries(640px)-----------------------*/
-@media screen and (max-width: 640px){
+@media screen and (max-width: 745px){
 	
 /*---------------Header----------------*/	
 	.header{
@@ -270,4 +272,73 @@
 		width: 59%;
 		margin-left: 20px;
 	}
+	/*-------------portfolio------------------*/
+		.containerPortfolio{
+			height: 2000px;
+		}
+		.mainPortfolio{
+			width:585px;
+			height: 1500px;
+			margin: 210px 0 0 20px;
+		}
+		.mainPortfolio .mainLeft{ 
+			height:500px;
+			width:307px;
+			margin:10px 0 0 10px;
+		 }
+		.mainLeft .mainProj1{
+		 	margin:50px auto 0 40px;
+		 	width: 400px;	
+		 	height: 230px;
+		 }
+
+	 	.mainLeft .mainProj2{
+		 	margin:50px auto 0 40px;
+		 	padding-left: 40px;
+		 	width: 400px;	
+		 	height: 230px;
+		 }
+		  .mainLeft .mainProj3{
+		 	margin:50px auto 0 40px;
+		 	width: 400px;	
+		 	height: 230px;
+		 }
+		  .mainLeft .mainProj4{
+		 	margin:50px auto 0 40px;
+		 	padding-left: 40px;
+		 	width: 400px;	
+		 	height: 230px;
+		 }
+
+		 .mainLeft .mainProj5{
+		 	margin:50px auto 0 40px;
+		 	padding-left: 40px;
+		 	width: 400px;	
+		 	height: 230px;
+		 }	 
+		 .imgBar{
+		 	width: 400px;
+		 	margin-top: 100px;
+		 }
+
+/*-------------------Contact------------*/
+	.mainContact{
+			width:550px;
+			height: 550px;
+			margin-top: 210px;
+		}
+	.contactName{
+		width: 460px;
+	}
+	.contactEmail{
+		width: 460px;
+	}
+	.contactMessage{
+		width: 460px;
+	}
+	.containerContact{
+		height: 1100px;
+		min-height: 100%;
+	}
+	
 }
