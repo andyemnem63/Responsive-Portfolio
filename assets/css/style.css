@@ -2,6 +2,9 @@ html{
   position:relative; 
   min-height: 100%;
 }
+.mainContainer{
+	width: 960px;
+}
 body{
 	width: 960px;
 	min-width: 100%;
@@ -32,10 +35,6 @@ body{
 	font-size: 20px;
 	color: #cccccc;
 	font-weight: bold;
-	border-right: 1px solid #cccccc;
-}
-.header nav ul li#last{
-	border-right: none;
 }
 .header nav{
 	margin-right: 230px;
@@ -44,7 +43,7 @@ body{
 .logo{
 	float:left;
 	font-size: 50px;
-	padding: 2%;
+	padding: 25px;
 	background-color: #4aaaa5;
 	margin-left: 200px;
 	color: white;
