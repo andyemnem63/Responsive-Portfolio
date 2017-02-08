@@ -2,9 +2,6 @@ html{
   position:relative; 
   min-height: 100%;
 }
-.mainContainer{
-	width: 960px;
-}
 body{
 	width: 960px;
 	min-width: 100%;
@@ -45,7 +42,7 @@ body{
 	font-size: 50px;
 	padding: 25px;
 	background-color: #4aaaa5;
-	margin-left: 200px;
+	margin-left: 279px;
 	color: white;
 	font-weight: bold;
 }
@@ -55,9 +52,11 @@ body{
 .container{
 	height: 700px;
 	min-height: 100%;
+	max-width: 960px;
+	margin:0 auto;
 }
 .main{
-	width:650px;
+	width:66%;
 	height: 450px;
 	background-color: #ffffff;
 	border: 2px solid #cccccc;
@@ -65,12 +64,14 @@ body{
 
 .main{
 	float: left;
-	margin: 70px 0 0 200px;
+	margin: 70px 0 0 0;
 }
 /*---------------MainContact----------------*/
 .containerContact{
 	height: 800px;
 	min-height: 100%;
+	max-width: 960px;
+	margin:0 auto;
 }
 .mainContact{
 	width:650px;
@@ -80,14 +81,14 @@ body{
 }
 .mainContact{
 	float: left;
-	margin: 70px 0 0 200px;
+	margin: 70px 0 0 0;
 }
 
 /*---------------side----------------*/
 .side
 {
 	float: left;
-	margin: 70px 0 0 50px;
+	margin: 70px 0 0 25px;
 	width:270px;
 	height: 170px;
 	background-color: #ffffff;
@@ -222,6 +223,8 @@ body{
 .containerPortfolio{
 	height: 800px;
 	min-height: 100%;
+	max-width: 960px;
+	margin:0 auto;
 }
 
 .mainPortfolio h1{
@@ -246,12 +249,11 @@ body{
 	border: 2px solid #cccccc;
 	overflow: hidden;
 	float: left;
-	margin: 70px 0 0 200px;
+	margin: 70px 0 0 0;
 }
 .mainPortfolio .mainLeft{ 
 	float:left;
 	height:80%;
-	/*width:50%;*/
 	width: 100%;
 	margin:-25px 0 0 0;
  }

@@ -1,6 +1,6 @@
 /*----------------------------------Media querries(980px)---------------------------*/
 
-@media screen and (max-width:1210px)
+@media screen and (max-width:980px)
 {
 /*---------------Header----------------*/	
 	.header{
@@ -8,7 +8,7 @@
 		height: 85px;
 	}
 	.header nav ul li{
-		font-size: 15px;
+		font-size: 20px;
 	
 	}
 	.header nav{
@@ -33,27 +33,36 @@
 
 /*----------------Portfolio-----------*/
 	.containerPortfolio{
-		height: 1100px;
+		height: 1200px;
 	}
 
 	.mainPortfolio{
 		width:415px;
-		height: 1000px;
-		margin: 70px 0 0 150px;
+		height: 1050px;
+		margin: 70px 0 0 15%;
 	}
 	.mainPortfolio .mainLeft{ 
-		margin:20px 0 0 50px;
+		margin:30px 0 0 0px;
 	 }
 
+.mainLeft .mainProj1{
+ 	margin-left: 50px;
+ 	padding-left:0;
+ }
  .mainLeft .mainProj2{
- 	margin:50px auto 0 40px;
+ 	margin:50px auto 0 50px;
+ }
+ .mainLeft .mainProj3{
+ 	margin:50px auto 0 50px;
+ 	padding-left: 0px;
  }
   .mainLeft .mainProj4{
- 	margin:50px auto 0 40px;
+ 	margin:50px auto 0 50px;
  }
 
  .mainLeft .mainProj5{
- 	margin:50px auto 0 auto;
+ 	margin:50px auto 0 50px;
+ 	padding-left: 0px;
  }
 
 /*---------------MainContact----------------*/
@@ -78,7 +87,7 @@
 
 /*----------------------------------Media querries(768px)---------------------------*/
 
-@media screen and (max-width: 910px){
+@media screen and (max-width: 768px){
 
 /*---------------Header----------------*/	
 	.header{
@@ -86,7 +95,7 @@
 		height: 85px;
 	}
 	.header nav ul li{
-		font-size: 15px;
+		font-size: 20px;
 	
 	}
 	.header nav{
@@ -127,11 +136,11 @@
 
 /*----------------Portfolio-----------*/
 	.containerPortfolio{
-		height: 1300px;
+		height: 1100px;
 	}
 	.mainPortfolio{
 		width:690px;
-		height: 900px;
+		height: 700px;
 		margin: 70px 0 0 30px;
 	}
 	 .mainPortfolio .mainLeft{ 
@@ -179,7 +188,7 @@
  	width: 200px;
  	padding-left: 40px;
  	display: inline-block;
- 	margin:50px auto 0 auto;
+ 	margin:50px auto 0 50px;
  	overflow: hidden;
  }
 
@@ -212,7 +221,7 @@
 
 }
 /*---------------------Media querries(640px)-----------------------*/
-@media screen and (max-width: 745px){
+@media screen and (max-width: 640px){
 	
 /*---------------Header----------------*/	
 	.header{
